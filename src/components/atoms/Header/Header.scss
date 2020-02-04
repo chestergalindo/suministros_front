@@ -1,0 +1,25 @@
+@import '../../global.scss';
+
+body{
+  margin:0;
+}
+
+.header__back{
+  background-color:$blue-principal;
+  display: flex;
+  justify-content: center;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+  padding: 1em;
+  font-family: $font-family;
+  margin: 0px 20px;
+}
+
+a:hover{
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+}

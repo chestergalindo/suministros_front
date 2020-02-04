@@ -1,0 +1,42 @@
+@import '../../global.scss';
+
+h1{
+  align-self: end;
+  margin-bottom: 5px;
+}
+
+.product__title{
+  font-family: $font-family;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 6em 6em;
+}
+
+.product-selector{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 20px 0px;
+}
+
+input{
+  outline: none;
+  width: 80%;
+  border-radius: 15px;
+  height: 2.5em;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 10px;
+  font-size: 15px;
+  font-family: $font-family;
+  border: solid 1px $blue-principal;
+  align-self: center;
+}
+
+select{
+  height: 2.5em;
+  font-size: 15px;
+  outline: none;
+  border-radius: 15px;
+  border: solid 1px $blue-principal;
+}
