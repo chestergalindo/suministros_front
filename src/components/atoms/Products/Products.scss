@@ -2,7 +2,7 @@
 
 .box__product{
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(5,1fr);
   grid-column-gap: 20px;
   grid-row-gap: 15px;
   padding: 15px;
@@ -12,7 +12,7 @@
   display: grid;
   height: 300px;
   width: 300px;
-  box-shadow: 0px 0px 14px 4px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 14px 4px rgba(32,33,36,0.28);
   padding: 0px 5px 0px 20px;
   font-family: $font-family;
   border-radius: 5%;
@@ -22,13 +22,14 @@
 h1{
   align-self: end;
   margin-bottom: 5px;
+  font-size: 3.5em;
 }
 
 .product__title{
   font-family: $font-family;
   display: grid;
   justify-content: center;
-  grid-template-rows: 6em 6em;
+  grid-template-rows: 10em 8em;
 }
 
 .product-selector{
@@ -36,25 +37,38 @@ h1{
   justify-content: center;
   align-items: center;
   padding: 0px 0px 30px 0px;
+  position: relative;
 }
 
 input{
   outline: none;
   width: 90%;
-  border-radius: 15px;
+  border-radius: 45px;
   height: 2.5em;
-  padding-left: 15px;
+  padding-left: 35px;
   padding-right: 15px;
   font-size: 15px;
   font-family: $font-family;
-  border: solid 1px $blue-principal;
+  border: solid 1px #9DB6EA;
   align-self: center;
+}
+
+input:hover{
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
 
 select{
   height: 2.5em;
   font-size: 15px;
   outline: none;
-  border-radius: 15px;
+  border-radius: 20px;
   border: solid 1px $blue-principal;
 }
+
+.fa-search{
+  color:rgba(32,33,36,0.28);
+  height: 15px;
+  position: absolute;
+  top: 42px;
+  left: 30px;
+} 
